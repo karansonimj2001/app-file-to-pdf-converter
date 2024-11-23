@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal File to PDF Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Universal File to PDF Converter</h1>
+    </header>
+    <div class="container">
+        <label for="fileInput" class="file-label">Add File</label>
+        <input type="file" id="fileInput" accept=".txt,.docx,.xlsx,.csv,.jpg,.png,.pdf" hidden>
+        <button id="convertBtn">Convert to PDF</button>
+        <a id="downloadLink" style="display: none;">Download PDF</a>
+    </div>
+    <div id="main2">
+        <h1>Hello Everyone, My name is Karan Soni. <br> Feel free to use my website service.</h1>
+        <ol>
+            <li>Free file format converting service.</li>
+            <li>Your files are totally safe.</li>
+            <li>No file is stored.</li>
+        </ol>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
